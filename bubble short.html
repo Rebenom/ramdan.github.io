@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Bubble Short Mahasiswa</title>
+            <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Bubble Sort Mahasiswa</h1>
+    
+            <h2>Data Mahasiswa Sebelum Diurutkan</h2>
+            <table id="unsortedTable">
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>NIM</th>
+                        <th>iPS</th>
+                    </tr>
+                </thead>
+                <tbody id="unsortedBody">
+
+                </tbody>
+            </table>
+    
+            <div class="btn-container">
+                <button class="btn-sort" onclick="sortAscending()">Ascending</button>
+                <button class="btn-sort" onclick="sortDescending()">Descending</button>
+                <button class="btn-hide" onclick="hideSortedData()">Hidden</button>
+            </div>
+    
+            <h2 id="sortedTitle" class="hidden">Data Mahasiswa Setelah Diurutkan (Bubble Sort)</h2>
+            <table id="sortedTable" class="hidden">
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>NIM</th>
+                        <th>IPS</th>
+                    </tr>
+                </thead>
+                <tbody id="sortedBody">
+
+                </tbody>
+            </table>
+        </div>    
+    
+    <script src="script.js"></script>
+    </body>
+</html>
